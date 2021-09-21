@@ -7,7 +7,7 @@
     <title>Contato</title>
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">home</a>
         </li>
@@ -16,18 +16,23 @@
          <a href="contato.html">Contato</a>
          </li>
     </ul>
-    <h1>Entre em contato comigo</h1>
-    <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome">
+    <h1 class= "center">Entre em contato comigo</h1>
 
-        <label for="email">Email</label>
-        <input type="email" id="email">
+    <div class="container">
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+    
+            <label for="email">Email</label>
+            <input type="email" id="email">
+    
+            <label for="assunto">Assunto</label>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <button>Enviar</button>
+        </form>
 
-        <label for="assunto">Assunto</label>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-        <button>Enviar</button>
-        <h2>Endereço</h2>
+        <div class="ml-50">
+       <h2>Endereço</h2>
         <p>Av. Paulista, 100</p>
         <p>São Paulo - SP</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.934326024044!2d-46.6466554855428!3d-23.57080206782487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bd92bce431%3A0xc37ded133806ef0b!2sAv.%20Paulista%2C%20100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-000!5e0!3m2!1spt-BR!2sbr!4v1631855917719!5m2!1spt-BR!2sbr"
@@ -36,6 +41,21 @@
         style="border:0;"
         allowfullscreen=""
         loading="lazy"></iframe>
-    </form>
+         </div>
+    </div>
+
+    <hr>
+        <footer>
+            <div class="container mb-50">
+                <a href="file:///C:/Users/usuario/Desktop/fundamentos-web/index.html" target="_blank">
+                <img class="tm-social" source="assets/img/github.png" alt="Logo do github" >
+                </a>
+            </div>
+
+            <p class="center">
+            Todos os direitos reservados: Jaqueline Ferreira &copy;
+            </p>
+        </footer>
+        
 </body>
 </html>
